@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background:#020617;
+
+  font-family:sans-serif;
+}
+
+.dashboard{
+  display:flex;
+
+  gap:25px;
+
+  flex-wrap:wrap;
+}
+
+.card{
+  width:250px;
+
+  padding:35px;
+
+  background:#111827;
+
+  border-radius:20px;
+
+  color:white;
+
+  text-align:center;
+
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card h2{
+  margin-bottom:15px;
+}
+
+.card p{
+  font-size:35px;
+
+  color:#38bdf8;
+}
